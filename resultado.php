@@ -10,7 +10,7 @@ echo "La partida a terminado"
 <body>
 <form>
 <label>
- <input type="submit" value="Enviar">
+ <input type="submit" value="Jugar otra vez">
 </label>
 </form>
 </body>
