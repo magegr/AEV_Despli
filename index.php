@@ -96,7 +96,7 @@ $remaining = $MAX_ATTEMPTS - count($_SESSION['attempts']);
   <?php endif; ?>
 
   <?php if ($attempts): ?>
-  <h3>Intentos anteriores</h3>
+  <h3 style="background-color: red;">Intentos anteriores</h3>
   <table>
     <tr><th>#</th><th>Intento</th><th>Exactos</th><th>Parciales</th></tr>
     <?php foreach ($attempts as $i => $a): ?>
